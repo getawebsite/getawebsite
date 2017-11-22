@@ -1,0 +1,88 @@
+body {
+  color: #555;
+  margin: 0;
+}
+#header {
+  background-color: #4A4A4A;
+  height: 150px;
+  line-height: 150px;
+}
+#header-title {
+  display: block;
+  float: left;
+  font-size: 10px;
+  font-weight: bold;
+}
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+.contain {
+  max-width: 1000px;
+  margin: 0px auto;
+  font-size: 100px;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 100;
+  margin-left: 40px;
+}
+#header a:hover {
+  color: #333;
+}
+#footer{
+  background-color: #000000;
+  padding: 50px;
+}
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#footer p {
+  color: white;
+}
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+a hover{
+  color: #F6A623;
+}
+.post, about {
+  max-width: 800px;
+  margin:0 auto;
+  padding: 60px 0;
+}
+h1, h2, h3, h4 {
+  color: #333
+}
+p {
+  line-height: 1.5;
+}
+@import url(http://fonts.googleapis.com/css?family=Montserrat:
+  400,700);
+
+.post-title {
+  font-size: 40px;
+  margin-left: -200px;
+  margin-top: -40px;
+}
+.t1 {
+  font-size: 20px;
+  margin-left: -180px;
+  margin-top: -30px;
+}
